@@ -1,0 +1,76 @@
+/*RESETEO INICIAL*/
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+/*HEADER - ESTILO*/
+.headerContainer{
+        background-color: #1b66ff;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        width: auto;
+        padding: 20px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+/*SECCION 1 IZQUIERDO*/
+    .rMontero{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        width: auto;
+        display: flex;
+        justify-content: flex-start;
+    }
+.rMontero2{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-inline-end: 500px;
+    }
+
+/*SECCION 2 DERECHA*/
+    .nav{
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .menuInicio{
+        color: white;
+        text-decoration: none;
+        padding-left: 30px;
+        padding-inline-end: 15px;
+    }
+
+/*SECCION ESTILO*/
+    .seccionContainer{
+        display: flex;
+        background-color: darkgrey;
+        width: auto;
+        height: 500px;
+    }
+    .divSeccion{
+        color: black;
+    }
+
+/*FOOTER ESTILO*/
+    .footerContainer{
+        background-color: #1b66ff;
+        height: 60px;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 10px;
+    }
+.divFooter{
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+.imagen1{
+        padding-left: 15px;
+        padding-right: 15px; 
+    }
