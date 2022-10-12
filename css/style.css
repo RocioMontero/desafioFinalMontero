@@ -10,12 +10,12 @@
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 20px;
         font-weight: bold;
-        width: auto;
+        width: max-content;
         padding: 20px;
         display: flex;
         justify-content: flex-end;
     }
-
+    
 /*SECCION 1 IZQUIERDO*/
     .rMontero{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -45,7 +45,11 @@
         padding-left: 30px;
         padding-inline-end: 15px;
     }
-
+    .menuInicio:hover {
+        color: #070707;
+        text-decoration: line-through;
+    }
+    
 /*SECCION ESTILO*/
     .seccionContainer{
         display: flex;
@@ -60,17 +64,18 @@
 /*FOOTER ESTILO*/
     .footerContainer{
         background-color: #1b66ff;
-        height: 60px;
+        height: 80px;
         display: flex;
         justify-content: flex-end;
         padding-right: 10px;
+        align-items: center;
     }
 .divFooter{
         list-style: none;
         display: flex;
         align-items: center;
     }
-.imagen1{
+.imagenInsta{
         padding-left: 15px;
         padding-right: 15px; 
     }
